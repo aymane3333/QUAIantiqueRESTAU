@@ -11989,7 +11989,6 @@ body {
 
 main {
   flex: 1;
-  /* margin-bottom: 250px;  <- ENLEVÉ (c'est ça qui créait le gros trou blanc) */
 }
 
 footer.footer {
