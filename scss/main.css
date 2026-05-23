@@ -12047,6 +12047,9 @@ p {
 .image-card:hover .titre-image {
   opacity: 1;
 }
+.image-card:hover .action-image-buttons {
+  opacity: 1;
+}
 .image-card:hover img {
   filter: brightness(0.3);
 }
@@ -12061,7 +12064,24 @@ p {
   opacity: 0;
   transition: all 0.3s;
 }
+.image-card .action-image-buttons {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: all 0.3s;
+}
 
 .form-label {
   color: #906423;
+}
+
+.allreservations a {
+  display: block;
+  color: #292222;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
