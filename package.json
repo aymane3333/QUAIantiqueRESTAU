@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "start": "live-server --port=3000 --entry-file=index.html"
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
